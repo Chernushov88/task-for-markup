@@ -1,9 +1,37 @@
 @font-face {
 	font-family: 'MontserratMedium';
 	src: url('../fonts/Montserrat/MontserratMedium.eot');
-	src: url('fonts/MontserratMedium.eot') format('embedded-opentype'),
+	src: url('../fonts/Roboto/MontserratMedium.eot') format('embedded-opentype'),
 			url('../fonts/Montserrat/MontserratMedium.woff2') format('woff2'),
 			url('../fonts/Montserrat/MontserratMedium.woff') format('woff'),
 			url('../fonts/Montserrat/MontserratMedium.ttf') format('truetype'),
 			url('../fonts/Montserrat/MontserratMedium.svg#MontserratMedium') format('svg');
+}
+
+@font-face {
+    font-family: 'RobotoRegular';
+    src: url('../fonts/Roboto/RobotoRegular.eot');
+    src: url('../fonts/Roboto/RobotoRegular.eot') format('embedded-opentype'),
+         url('../fonts/Roboto/RobotoRegular.woff2') format('woff2'),
+         url('../fonts/Roboto/RobotoRegular.woff') format('woff'),
+         url('../fonts/Roboto/RobotoRegular.ttf') format('truetype'),
+         url('../fonts/Roboto/RobotoRegular.svg#RobotoRegular') format('svg');
+}
+@font-face {
+    font-family: 'RobotoMedium';
+    src: url('../fonts/Roboto/RobotoMedium.eot');
+    src: url('../fonts/Roboto/RobotoMedium.eot') format('embedded-opentype'),
+         url('../fonts/Roboto/RobotoMedium.woff2') format('woff2'),
+         url('../fonts/Roboto/RobotoMedium.woff') format('woff'),
+         url('../fonts/Roboto/RobotoMedium.ttf') format('truetype'),
+         url('../fonts/Roboto/RobotoMedium.svg#RobotoMedium') format('svg');
+}
+@font-face {
+    font-family: 'RobotoBold';
+    src: url('../fonts/Roboto/RobotoBold.eot');
+    src: url('../fonts/Roboto/RobotoBold.eot') format('embedded-opentype'),
+         url('../fonts/Roboto/RobotoBold.woff2') format('woff2'),
+         url('../fonts/Roboto/RobotoBold.woff') format('woff'),
+         url('../fonts/Roboto/RobotoBold.ttf') format('truetype'),
+         url('../fonts/Roboto/RobotoBold.svg#RobotoBold') format('svg');
 }
