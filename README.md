@@ -6,6 +6,8 @@
 - Vanilla JS
 
 ### Commands
+- `nvm install 16`
+- `nvm use 16`
 - `npm install`
 - `npm run dev`
 - `npm run build`
