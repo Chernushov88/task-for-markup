@@ -6,16 +6,14 @@
 .view-switch {
   display: flex;
   justify-content: flex-end;
-  margin-bottom: 15px;
+  margin-bottom: 20px;
+  padding-right: 8px;
   &__btn {
     border: none;
     background: transparent;
     cursor: pointer;
     &:first-child {
       margin-right: 21px;
-    }
-    svg, svg * {
-      fill: #C8C8C8 !important;
     }
     &.is-active {
       svg, svg * {

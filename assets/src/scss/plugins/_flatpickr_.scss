@@ -37,6 +37,9 @@
     background-size: 24px;
     cursor: pointer;
   }
+  &:last-child{
+    margin-left: 12px;
+  }
 }
 .date-clear {
   width: 24px;
@@ -72,7 +75,6 @@ span.flatpickr-weekday{
   border: 1px solid #d2d1d2;
   font-size: 13px;
   border-radius: 5px;
-  padding-top: 3px;
 }
 .dayContainer, .flatpickr-rContainer {
   min-width: 200px;
@@ -86,7 +88,4 @@ span.flatpickr-weekday{
   font-weight: 700;
   padding: 0;
   color: #000;
-}
-.flatpickr-months .flatpickr-next-month, .flatpickr-months .flatpickr-prev-month{
-  height: 40px;
 }
