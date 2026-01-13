@@ -3,3 +3,4 @@ node_modules/
 /dist/
 assets/build/
 package-lock.json
+.vscode/

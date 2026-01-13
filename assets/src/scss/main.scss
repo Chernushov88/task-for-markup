@@ -1,13 +1,19 @@
 // base
-@import "base/reset";
+@use "base/reset";
+@use "base/typography";
+// @use "base/fonts";
+
+// plugins
+@use "flatpickr/dist/flatpickr.css";
+@use "plugins/flatpickr_";
 
 
 // layout
-@import "layout/container";
-@import "layout/header";
+@use "layout/container";
+@use "layout/header";
 
 
 // sections
-@import "sections/card";
+@use "sections/posts";
 
 

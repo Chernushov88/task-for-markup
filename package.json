@@ -28,6 +28,12 @@
     "gulp-svg-sprite": "^2.0.3",
     "gulp-uglify": "^3.0.2",
     "gulp-webp": "^4.0.1",
-    "sass": "^1.69.5"
+    "prettier": "^3.7.4",
+    "sass": "^1.69.5",
+    "webpack": "^5.104.1",
+    "webpack-stream": "^7.0.0"
+  },
+  "dependencies": {
+    "flatpickr": "^4.6.13"
   }
 }

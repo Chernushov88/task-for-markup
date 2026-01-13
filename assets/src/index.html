@@ -4,20 +4,46 @@
 <title>Home Page</title>
 @@include('header.html')
 
-<main class="page">
-  <section class="test">
-    <div class="container">
-      <h1 class="page-title">Home Page</h1>
-
-
+<main class="content">
+  <div class="container">
+    <div class="view-switch">
+      <button class="view-switch__btn view-switch__btn--cards is-active" data-view="cards">
+        <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 22 22" fill="none">
+          <rect width="6" height="6" fill="#C8C7C7"/>
+          <rect x="8" width="6" height="6" fill="#C8C7C7"/>
+          <rect x="16" width="6" height="6" fill="#C8C7C7"/>
+          <rect y="8" width="6" height="6" fill="#C8C7C7"/>
+          <rect y="16" width="6" height="6" fill="#C8C7C7"/>
+          <rect x="8" y="8" width="6" height="6" fill="#C8C7C7"/>
+          <rect x="8" y="16" width="6" height="6" fill="#C8C7C7"/>
+          <rect x="16" y="8" width="6" height="6" fill="#C8C7C7"/>
+          <rect x="16" y="16" width="6" height="6" fill="#C8C7C7"/>
+          <script xmlns=""/>
+        </svg>
+      </button>
+      <button class="view-switch__btn view-switch__btn--list" data-view="list">
+        <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 22 22" fill="none">
+          <rect width="18" height="4" fill="#C8C7C7"/>
+          <rect y="9" width="18" height="4" fill="#C8C7C7"/>
+          <rect y="18" width="18" height="4" fill="#C8C7C7"/>
+          <script xmlns=""/>
+        </svg>
+      </button>
     </div>
-  </section>
+    @@include('posts.html')
+    <div class="load-more-wrap">
+      <button class="load-more">LOAD MORE</button>
+    </div>
+  </div>
+
+
 </main>
 
 @@include('footer.html')
 <script>
 
 </script>
+
 </body>
 </html>
 

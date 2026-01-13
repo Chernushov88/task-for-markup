@@ -1,0 +1,92 @@
+.flatpickr-current-month select {
+  pointer-events: none;
+  appearance: none;
+}
+
+.flatpickr-current-month {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: .75rem;
+}
+
+.fp-arrow {
+  width: 14px;
+  height: 14px;
+  cursor: pointer;
+}
+
+.flatpickr-prev-month,
+.flatpickr-next-month {
+  display: flex;
+  align-items: center;
+}
+
+.flatpickr-day.selected {
+  background: #2f80ed;
+  border-color: #2f80ed;
+  color: #fff;
+}
+
+
+.date-field {
+  position: relative;
+
+  .datepicker {
+    background: #fff url("/img/svg/calendar.svg") no-repeat right 1px center;
+    background-size: 24px;
+    cursor: pointer;
+  }
+}
+.date-clear {
+  width: 24px;
+  height: 26px;
+  position: absolute;
+  right: 1.7rem;
+  top: 50%;
+  transform: translateY(-50%);
+  background: #EBEBEB url("/img/svg/clear.svg") no-repeat center;
+  background-size: 14px;
+  border: none;
+  cursor: pointer;
+  border-right: 1px solid #DEDEDE;
+  border-left: 1px solid #DEDEDE;
+}
+.flatpickr-day {
+  margin: 2px 0;
+  border-radius: 2px;
+  color: #333437;
+  max-width: 24px;
+  height: 24px;
+  line-height: 24px;
+}
+span.flatpickr-weekday{
+  margin-bottom: 5px;
+  font-weight: 700;
+  font-size: 13px;
+  color: #000;
+}
+.flatpickr-calendar.open  {
+  width: 201px;
+  max-height: 215px;
+  border: 1px solid #d2d1d2;
+  font-size: 13px;
+  border-radius: 5px;
+  padding-top: 3px;
+}
+.dayContainer, .flatpickr-rContainer {
+  min-width: 200px;
+  max-width: 200px;
+}
+.flatpickr-current-month{
+  gap: .25rem;
+}
+.flatpickr-current-month, .flatpickr-current-month input.cur-year {
+  font-size: 1rem;
+  font-weight: 700;
+  padding: 0;
+  color: #000;
+}
+.flatpickr-months .flatpickr-next-month, .flatpickr-months .flatpickr-prev-month{
+  height: 40px;
+}
